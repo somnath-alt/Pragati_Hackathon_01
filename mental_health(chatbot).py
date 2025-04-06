@@ -25,6 +25,8 @@ def chatbot_response(user_input):
         ] + chat_history  # Include chat history in messages
     )
     
+
+    #nice]i
     bot_response = response["choices"][0]["message"]["content"]
     chat_history.append({"role": "assistant", "content": bot_response})  # Store bot response
     
